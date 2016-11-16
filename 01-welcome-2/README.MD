@@ -45,4 +45,4 @@ $ webpack ./entry.js bundle.js
 
 Update your browser window and you should see the text `It works from content.js.`. 
 
-<a href="https://cestr.github.io/webpack-tutorials/01-welcome-2/" "index.html demo for welcome-2" target="_blank">[`index.html`]</a>
+<a href="https://cestr.github.io/webpack-tutorials/01-welcome-2/" "index.html demo for welcome-2" target="_blank">`index.html`</a>
