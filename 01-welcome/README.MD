@@ -13,3 +13,27 @@
 $ npm install webpack -g
 ```
     全局安装使得webpack命令可用。
+
+##1.2 js编译
+
+在一个空目录里创建如下文件：
+添加`entry.js`
+
+```js
+document.write("It works.");
+```
+
+添加`index.html`
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WELCOME</title>
+</head>
+<body>
+    <script type="text/javascript" src="bundle.js" charset="UTF-8"></script>
+</body>
+</html>    
+``` 
