@@ -1,7 +1,7 @@
 上接[`01-welcome`](https://github.com/cestr/webpack-tutorials/tree/master/01-welcome "welcome") 1.2
 
 目录结构说明
-
+<a href="http://example.com/" target="_blank">Hello, world!</a>
 ```
 01-welcome-2
 ├─bundle.js  # 编译文件, 无需手动创建
