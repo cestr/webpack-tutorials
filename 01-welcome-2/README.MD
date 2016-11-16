@@ -37,3 +37,10 @@ update `entry.js`
 
 document.write(require("./content.js"));
 ```
+And recompile with:
+
+```shell
+$ webpack ./entry.js bundle.js
+```
+
+Update your browser window and you should see the text `It works from content.js.`.
