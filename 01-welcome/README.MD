@@ -37,3 +37,8 @@ document.write("It works.");
 </body>
 </html>    
 ``` 
+接写来终端执行:
+
+```shell
+$ webpack ./entry.js bundle.js
+```
