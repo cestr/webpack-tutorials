@@ -1,12 +1,13 @@
-#1. WELCOME
+上接[`01-welcome`](https://github.com/cestr/webpack-tutorials/tree/master/01-welcome "welcome") 1.2
 
 目录结构说明
 
 ```
-01-welcome
-    ├─entry.js   # 新增文件
-    ├─index.html # 新增文件
-    ├─bundle.js  # 编译文件, 无需手动创建
+01-welcome-2
+├─bundle.js  # 编译文件, 无需手动创建
+├─content.js # 新增文件
+├─entry.js   # 修改文件    
+├─index.html # 修改文件
 ```
 
 这个小教程将引导您完成一个简单的例子。
@@ -16,51 +17,20 @@
 * 如何使用加载器
 * 如何使用开发服务器
 
-##1.1 全局安装webpack
+续
+##1.3 SECOND FILE
 
-```shell
-$ npm install webpack -g
-```
-    全局安装使得webpack命令可用。
+Next, we will move some code into an extra file.
 
-##1.2 js编译
-
-在一个空目录里创建如下文件：
-添加`entry.js`
+add `content.js`
 
 ```js
-document.write("It works.");
+module.exports = "It works from content.js.";
 ```
 
-添加`index.html`
+update `entry.js`
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>WELCOME</title>
-</head>
-<body>
-    <script type="text/javascript" src="bundle.js" charset="UTF-8"></script>
-</body>
-</html>    
-``` 
-接写来终端执行:
-
-```shell
-$ webpack ./entry.js bundle.js
+```github
+- document.write("It works.");
++ document.write(require("./content.js"));
 ```
-
-它将编译文件,并创建一个包文件。
-如果成功它显示是这样的:
-
-```shell
-Version: webpack 1.13.3
-Time: 119ms
-    Asset     Size  Chunks             Chunk Names
-bundle.js  1.42 kB       0  [emitted]  main
-   [0] ./entry.js 28 bytes {0} [built]
-```
-在浏览器打开目录中的 [`index.html`](https://cestr.github.io/webpack-tutorials/01-welcome/ "这是一个例子") 文件. 将显示 `It works`.
-

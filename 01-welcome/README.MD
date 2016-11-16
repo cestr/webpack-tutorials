@@ -4,9 +4,10 @@
 
 ```
 01-welcome
-    ├─entry.js   # 新增文件
-    ├─index.html # 新增文件
-    ├─bundle.js  # 编译文件, 无需手动创建
+├─bundle.js  # 编译文件, 无需手动创建
+├─entry.js   # 新增文件
+├─index.html # 新增文件
+    
 ```
 
 这个小教程将引导您完成一个简单的例子。
