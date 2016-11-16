@@ -31,6 +31,7 @@ module.exports = "It works from content.js.";
 update `entry.js`
 
 ```github
-- document.write("It works.");
-+ document.write(require("./content.js"));
+//document.write("It works."); // or delete
+
+document.write(require("./content.js"));
 ```
