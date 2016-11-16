@@ -1,5 +1,14 @@
 #1. WELCOME
 
+目录结构说明
+
+```
+01-welcome
+    |-entry.js # 新增文件
+    |-index.html # 新增文件
+    |-bundle.js # 编译文件
+```
+
 这个小教程将引导您完成一个简单的例子。
 你将学习:
 * 如何安装webpack
