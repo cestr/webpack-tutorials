@@ -47,6 +47,5 @@ Update your browser window and you should see the text `It works from content.js
 
 <a href="https://cestr.github.io/webpack-tutorials/01-welcome-2/" "index.html demo for welcome-2" target="_blank">`index.html`</a>
 
-```
+
 > webpack将分析的入口文件依赖其他文件。这些文件(称为模块)都包含在`bundle.js`中。webpack会给每个模块一个惟一的id,id保存所有模块访问的`bundle.js`文件。只有输入模块是在启动时执行的。一个小的运行时提供了需要函数和在需要时执行的依赖关系。
-```
