@@ -43,4 +43,5 @@ And recompile with:
 $ webpack ./entry.js bundle.js
 ```
 
-Update your browser window and you should see the text `It works from content.js.`.
+Update your browser window and you should see the text `It works from content.js.`. 
+https://cestr.github.io/webpack-tutorials/01-welcome-2/
