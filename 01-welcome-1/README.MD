@@ -10,7 +10,7 @@
     
 ```
 
-这个小教程将引导您完成一个简单的例子。
+这个小教程将引导您完成一个简单的例子
 
 你将学习到如下技能:
 * 如何安装webpack
@@ -25,11 +25,12 @@
 ```shell
 npm install webpack -g
 ```
-    全局安装使得webpack命令可用。
+    全局安装使得webpack命令可用
 
 ##1.2 js编译
 
 在一个空目录（`01-welocme-1`）里创建如下文件：
+
 添加`entry.js`
 
 ```js
@@ -56,7 +57,8 @@ document.write("It works.");
 webpack ./entry.js bundle.js
 ```
 
-它将编译文件,并创建一个包文件。
+它将编译文件,并创建一个包文件(`bundle.js`)
+
 如果成功它显示是这样的:
 
 ```shell
@@ -66,8 +68,8 @@ Time: 119ms
 bundle.js  1.42 kB       0  [emitted]  main
    [0] ./entry.js 28 bytes {0} [built]
 ```
-在浏览器打开目录中的 [`index.html`](https://cestr.github.io/webpack-tutorials/01-welcome/ "这是一个例子") 文件. 将显示 `It works`.
 
+在浏览器打开目录中的 [`index.html`](https://cestr.github.io/webpack-tutorials/01-welcome/ "这是一个例子") 文件. 将显示 `It works.`
 
 ---------------
 
