@@ -1,2 +1,2 @@
 # webpack-tutorials
-webpack-教程
+webpack 入门教程
