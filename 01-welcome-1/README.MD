@@ -11,7 +11,8 @@
 ```
 
 这个小教程将引导您完成一个简单的例子。
-你将学习:
+
+你将学习到如下技能:
 * 如何安装webpack
 * 如何使用webpack
 * 如何使用加载器
@@ -22,13 +23,13 @@
 ##1.1 全局安装webpack
 
 ```shell
-$ npm install webpack -g
+npm install webpack -g
 ```
     全局安装使得webpack命令可用。
 
 ##1.2 js编译
 
-在一个空目录里创建如下文件：
+在一个空目录（`01-welocme-1`）里创建如下文件：
 添加`entry.js`
 
 ```js
@@ -49,10 +50,10 @@ document.write("It works.");
 </body>
 </html>    
 ``` 
-接写来终端执行:
+接下来在（`01-welocme-1`里打开）终端执行:
 
 ```shell
-$ webpack ./entry.js bundle.js
+webpack ./entry.js bundle.js
 ```
 
 它将编译文件,并创建一个包文件。
