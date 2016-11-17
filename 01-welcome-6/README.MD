@@ -24,8 +24,10 @@
 
 续
 ## 1.7 A PRETTIER OUTPUT（人性化输出）
+
 If the project grows the compilation may take a bit longer. So we want to display some kind of progress bar. And we want colors…
 （如果项目编译可能需要很长一段时间。因此我们希望显示进度条。和我们想要的颜色…）
+
 We can achieve this with
 （我们可以这样实现）
 
@@ -34,6 +36,7 @@ webpack --progress --colors
 ```
 
 ## 1.8 WATCH MODE（观察模式）
+
 We don’t want to manually recompile after every change…
 （每次修改文件后不需要手动编译...）
 
@@ -45,7 +48,7 @@ Webpack can cache unchanged modules and output files between compilations.
 
 > When using watch mode, webpack installs file watchers to all files, which were used in the compilation process. If any change is detected, it’ll run the compilation again. When caching is enabled, webpack keeps each module in memory and will reuse it if it isn’t changed.
 
-DEVELOPMENT SERVER
+## 1.9 DEVELOPMENT SERVER（开发服务器）
 The development server is even better.
 
 npm install webpack-dev-server -g
