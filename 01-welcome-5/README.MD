@@ -65,4 +65,4 @@ bundle.js  11.8 kB       0  [emitted]  main
     + 4 hidden modules
 ```
 
->The webpack command-line will try to load the file webpack.config.js in the current directory.
+>The webpack command-line will try to load the file `webpack.config.js` in the current directory.
