@@ -69,7 +69,7 @@ bundle.js  1.42 kB       0  [emitted]  main
    [0] ./entry.js 28 bytes {0} [built]
 ```
 
-在浏览器打开目录中的 [`index.html`](https://cestr.github.io/webpack-tutorials/01-welcome/ "这是一个例子") 文件. 将显示 `It works.`
+在浏览器打开目录中的 [`index.html`](https://cestr.github.io/webpack-tutorials/01-welcome-1/ "这是一个例子") 文件. 将显示 `It works.`
 
 ---------------
 
