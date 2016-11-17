@@ -66,3 +66,7 @@ bundle.js  11.8 kB       0  [emitted]  main
 ```
 
 >The webpack command-line will try to load the file `webpack.config.js` in the current directory.
+
+---------------
+
+next [`01-welcome-6`](/01-welcome-6 "welcome")

@@ -55,3 +55,7 @@ $ webpack ./entry.js bundle.js
 Recompile and update your browser to see your application with yellow background.
 
 <a href="https://cestr.github.io/webpack-tutorials/01-welcome-3/" "index.html demo for welcome-3" target="_blank">`index.html`</a>
+
+---------------
+
+next [`01-welcome-4`](/01-welcome-4 "welcome")

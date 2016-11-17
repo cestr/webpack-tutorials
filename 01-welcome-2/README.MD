@@ -1,4 +1,4 @@
-上接[`01-welcome`](https://github.com/cestr/webpack-tutorials/tree/master/01-welcome "welcome") 1.2 js编译
+上接[`01-welcome-1`](https://github.com/cestr/webpack-tutorials/tree/master/01-welcome-1 "welcome") 1.2 js编译
 
 目录结构说明
 
@@ -49,3 +49,8 @@ Update your browser window and you should see the text `It works from content.js
 
 
 > webpack将分析的入口文件依赖其他文件。这些文件(称为模块)都包含在`bundle.js`中。webpack会给每个模块一个惟一的id,id保存所有模块访问的`bundle.js`文件。只有输入模块是在启动时执行的。一个小的运行时提供了需要函数和在需要时执行的依赖关系。
+
+
+---------------
+
+next [`01-welcome-3`](/01-welcome-3 "welcome")

@@ -49,3 +49,7 @@ webpack ./entry.js bundle.js --module-bind "css=style!css"
 You should see the same result:
 
 <a href="https://cestr.github.io/webpack-tutorials/01-welcome-4/" "index.html demo for welcome-3" target="_blank">`index.html`</a>
+
+---------------
+
+next [`01-welcome-5`](/01-welcome-5 "welcome")

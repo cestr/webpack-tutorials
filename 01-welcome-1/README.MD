@@ -17,6 +17,8 @@
 * 如何使用加载器
 * 如何使用开发服务器
 
+---------------------------------------
+
 ##1.1 全局安装webpack
 
 ```shell
@@ -65,3 +67,7 @@ bundle.js  1.42 kB       0  [emitted]  main
 ```
 在浏览器打开目录中的 [`index.html`](https://cestr.github.io/webpack-tutorials/01-welcome/ "这是一个例子") 文件. 将显示 `It works`.
 
+
+---------------
+
+next [`01-welcome-2`](/01-welcome-2 "welcome")
