@@ -1,4 +1,4 @@
-上接[`01-welcome`](https://github.com/cestr/webpack-tutorials/tree/master/01-welcome "welcome") 1.2
+上接[`01-welcome`](https://github.com/cestr/webpack-tutorials/tree/master/01-welcome "welcome") 1.2 js编译
 
 目录结构说明
 

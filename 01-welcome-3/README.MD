@@ -1,13 +1,15 @@
-上接[`01-welcome-2`](https://github.com/cestr/webpack-tutorials/tree/master/01-welcome "welcome") 1.3
+上接[`01-welcome-2`](/01-welcome "welcome") 1.3 SECOND FILE
 
 目录结构说明
 
 ```
-01-welcome-2
+01-welcome-3
 ├─bundle.js  # 编译文件, 无需手动创建
-├─content.js # 新增文件
+├─content.js # 无需修改
 ├─entry.js   # 修改文件    
-├─index.html # 修改文件
+├─index.html # 无需修改
+├─README.MD  # doc
+├─style.css  # 新增文件
 ```
 
 这个小教程将引导您完成一个简单的例子。
@@ -20,7 +22,7 @@
 ---------------------------------------
 
 续
-##1.3 THE FIRST LOADER
+##1.4 THE FIRST LOADER
 
 We want to add a css file to our application.
 
