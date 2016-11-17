@@ -1,4 +1,4 @@
-上接[`01-welcome-2`](/01-welcome "welcome") 1.3 SECOND FILE
+上接[`01-welcome-2`](/01-welcome-2 "welcome") 1.3 SECOND FILE
 
 目录结构说明
 
