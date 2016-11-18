@@ -17,7 +17,7 @@ webpack 入门教程
 
 > 模块系统主要解决模块的定义、依赖和导出，先来看看已经存在的模块系统。
 
-> ### ```js <script>``` 标签
+> ###`<script>` 标签
 
 > ```js
 <script src="module1.js"></script>
