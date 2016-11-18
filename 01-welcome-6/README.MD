@@ -64,25 +64,25 @@ webpack-dev-server --progress --colors
 
 > 也可以把命令行写入`package.json`文件中
 
-修改`package.json`文件：
+> 修改`package.json`文件：
 
-```json
-  // 上文省略...
+> ```json
+  "doc1start": "上文省略..."
   "scripts": {
     "dev": "webpack-dev-server --progress --colors"
   },
-  // 下文省略...
+  "doc1end" 下文省略...
 ```
 
-然后命令行运行：
+> 然后命令行运行：
 
-```shell
+> ```shell
 npm run dev
 ```
 
-等价
+> 等价
 
-```shell
+> ```shell
 webpack-dev-server --progress --colors
 ```
 * * *
