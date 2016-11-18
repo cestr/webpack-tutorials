@@ -64,7 +64,7 @@ wreq，Browserify 的前身
 
 > Asynchronous Module Definition 规范其实只有一个主要接口 define(id?, dependencies?, factory)，它要在声明模块的时候指定所有的依赖 dependencies，并且还要当做形参传到 factory 中，对于依赖的模块提前执行，依赖前置。
 
-```js
+> ```js
 define("module", ["dep1", "dep2"], function(d1, d2) {
   return someExportedValue;
 });
@@ -88,7 +88,7 @@ require(["module", "../file"], function(module, file) { /* ... */ });
 
 > Common Module Definition 规范和 AMD 很相似，尽量保持简单，并与 CommonJS 和 Node.js 的 Modules 规范保持了很大的兼容性。
 
-```js 
+> ```js 
 define(function(require, exports, module) {
   var $ = require('jquery');
   var Spinning = require('./spinning');
@@ -165,7 +165,5 @@ require("./image.png");
 > 静态分析
 
 > 在编译的时候，要对整个代码进行静态分析，分析出各个模块的类型和它们依赖关系，然后将不同类型的模块提交给适配的加载器来处理。比如一个用 LESS 写的样式模块，可以先用 LESS 加载器将它转成一个CSS 模块，在通过 CSS 模块把他插入到页面的 <style> 标签中执行。Webpack 就是在这样的需求中应运而生。
-
-> 同时，为了能利用已经存在的各种框架、库和已经写好的文件，我们还需要一个模块加载的兼容策略，来避免重写所有的模块。
-
-> 那么接下来，让我们开始 Webpack 的神奇之旅吧。
+>同时，为了能利用已经存在的各种框架、库和已经写好的文件，我们还需要一个模块加载的兼容策略，来避免重写所有的模块。
+>那么接下来，让我们开始 Webpack 的神奇之旅吧。
