@@ -42,6 +42,7 @@ Run the compilation with:
 ~~webpack ./entry.js bundle.js --module-bind 'css=style!css'~~
 
 ```shell
+# window 环境需要使用双引号，否则会报错！
 webpack ./entry.js bundle.js --module-bind "css=style!css"
 ```
 > Some environments may require double quotes: –module-bind “css=style!css”
