@@ -17,14 +17,7 @@ webpack 入门教程
 
 > 模块系统主要解决模块的定义、依赖和导出，先来看看已经存在的模块系统。
 
-> ###<script>标签
 
-> ```js
-<script src="module1.js"></script>
-<script src="module2.js"></script>
-<script src="libraryA.js"></script>
-<script src="module3.js"></script>
-```
 
 > 这是最原始的 JavaScript 文件加载方式，如果把每一个文件看做是一个模块，那么他们的接口通常是暴露在全局作用域下，也就是定义在 `window` 对象中，不同模块的接口调用都是一个作用域中，一些复杂的框架，会使用命名空间的概念来组织这些模块的接口，典型的例子如 [YUI]() 库。
 
