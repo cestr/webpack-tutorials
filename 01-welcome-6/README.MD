@@ -67,11 +67,11 @@ webpack-dev-server --progress --colors
 > 修改`package.json`文件：
 
 > ```json
-  "///////": "上文省略..."
+...
   "scripts": {
     "dev": "webpack-dev-server --progress --colors"
   },
-  "////////": 下文省略...
+...
 ```
 
 > 然后命令行运行：
